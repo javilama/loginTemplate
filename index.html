@@ -6,6 +6,7 @@
 			    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 			     
 			     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+			      <link rel="stylesheet" href="fontAwesome/css/all.min.css">
 			     <link rel="stylesheet" href="main/main.css">
 			
 				<title>Login</title>
@@ -15,27 +16,43 @@
 				        <div class="row justify-content-center">
 				            <div class="col-10">
 				                <div class="card-group shadow-lg">
-				                    <div class="card bg-white border-0 py-5 d-none d-sm-block">
-				                        <div class="card-body text-center  ">
-				                            <img src="assets/images/image-login-main.png" alt="" class="img-fluid mx-auto login-image ">
+				                    <div class="card bg-white border-0  d-none d-xl-block">
+				                        <div class="card-body text-center ">
+				                            <img src="assets/images/image-login-main.png" alt="" class="img-fluid mx-auto login-image">
 				                        </div>
 				                    </div>
-				                    <div class="card bg-white border-0 py-5">
+				                    <div class="card bg-white border-0 ">
 				                        <div class="card-body">
 				                            <form class="mx-5">
-				                            	<div  class="text-center "  >
+				                            	<div  class="text-center"  >
 				                            	  <img src="assets/images/avatar.png" width="60" height="60" alt="avatar" class="img-fluid mb-4 pt-3 ">
 				                            		
 				                            	</div>
-											     <span class="form-title">REGISTRO</span>
+											     <span class="form-title">BIENVENIDO!</span>
 											       <div class="form-group">
-											          <input type="email" class="form-control  form-input " id="email" placeholder="Email">
+											       	 <label for="email"class="form-label" >Correo electrónico</label> <br>
+											       	 <span  class="form-icon" >
+											       	  <i class="fas fa-user"></i>	
+											       	 </span>
+											          <input type="email" class="form-control   form-input"id="email">
 											   
 											         </div>
 											       <div class="form-group">
-											           <input type="password" class="form-control form-input" id="password" placeholder="Password">
+											       	<label for="password"class="form-label" >Contraseña</label><br>
+											       	<span  class="form-icon" >
+											       	  <i class="fas fa-unlock-alt"></i>	
+											       	 </span>
+											           <input type="password" class="form-control form-input" id="password">
 											        </div>
-											          <button type="button" class="btn btn-primary btn-lg btn-block">Login</button>
+											        <div class="container d-flex justify-content-end pb-3">
+											        	
+												      <a href="#">Olvide mi contraseña</a>
+											        </div>
+											          <button type="button" class="btn btn-primary btn-lg btn-block">Entrar</button>
+											          <div class="container d-flex justify-content-center pt-3" >
+											             <a href="#">Registrarse</a>
+											          	
+											          </div>
 								             </form>
 				                        </div>
 				                    </div>
